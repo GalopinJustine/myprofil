@@ -1,0 +1,145 @@
+/*colors and fronts*/
+body{
+	background:#fff3e2;	
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:25px;
+}
+#monsitepréferé{
+	color: #706897;
+	text-decoration: underline;
+	font-family:'Source Sans Pro', sans-serif;;
+	font-size: 30px;
+	margin:0 auto;
+}
+#passions{
+	color: #706897;
+	text-decoration: underline;
+	font-family:'Source Sans Pro', sans-serif;;
+	font-size:30px;
+	text-align: center;
+}
+#projets{
+	color:#9088d4;
+	text-decoration: underline;
+	font-family:'Source Sans Pro', sans-serif;;
+	font-size:30px;
+}
+#hobbies{
+	color: #9088d4;
+	text-decoration: underline;
+	font-family:'Source Sans Pro', sans-serif;;
+	font-size:30px;
+	text-align:center;
+}
+#followme{
+	color: #706897;
+	text-decoration: underline;
+	font-family:'Source Sans Pro', sans-serif;;
+	font-size:30px;
+	text-align:center;	
+}
+h1{
+	color: #fa7f72;	
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 48px;
+	text-align:center;	
+}
+a{
+	font-family:'Source Sans Pro', sans-serif;;
+	font-size:24px;
+	text-align:center;		
+}
+div{
+	background-color: #f6eec9;
+	border:4px solid #f3eac2;
+	margin-left:100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 1px;
+	box-shadow:15px 15px 35px #d6d2c4;
+	text-align:center;
+	padding:40px;	
+}
+img{
+	width:15%;
+	border-radius:50%;
+}
+#siteinternet{
+	width: 50%;
+	margin:0 auto;
+	margin-top:100px;
+}
+.cards{
+	display: flex;
+  	align-items: center;
+  	justify-content: space-around;
+	padding: 10px;
+	box-shadow: none;
+	border: transparent;
+	margin-top:0px;
+	font-size: 150px;
+}
+#bottom{
+	background-color: #706897;
+	color:white; 
+	padding:15px 20px;
+	border-radius:4px;
+	text-decoration:none;
+}
+#bottom:hover{
+	text-decoration:none;
+	background-color:#fff3e2;
+	color:#968c83;
+}
+i{
+	font-size:70px;
+	color:#968c83;
+}
+#banner{
+	background-image: url("images/photo soleil.jpg");
+	font-family:'Libre Baskerville', serif;
+	width:100%;
+	height:400px;
+	background-size:cover;
+	background-position:center;
+	margin:0px;
+}
+#banner p{
+	margin-left:4000x;
+	margin-top:150px;
+	font-size:80px;
+	color:white;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+ 	}
+div{
+ 	margin-left: 5px !important;
+ 	margin-right:5px !important;
+ 	}
+ #siteinternet{
+	width: auto;
+}
+}
+.container{
+	background: transparent;
+	border: transparent;
+	box-shadow: none;
+}
